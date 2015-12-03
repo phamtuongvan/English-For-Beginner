@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    android:weightSum="1"
+    android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:src="@drawable/anniversary"
+                android:id="@+id/imgVoca" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:weightSum="1"
+                android:orientation="horizontal">
+                <me.grantland.widget.AutofitTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="20dp"
+                    android:id="@+id/txtEng"
+                    android:layout_gravity="center"
+                    android:gravity="center|left"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Photographer"
+                    android:maxLines="4"
+                    android:textSize="36sp"
+                    autofit:minTextSize="16sp"
+                    android:layout_weight="0.8"
+                    android:textStyle="bold"
+                    />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16dp"
+                    android:id="@+id/btnSound"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:padding="10dp"
+                    android:background="@android:color/transparent"
+                    android:src="@mipmap/ic_sound"
+                    android:tint="@color/blue"
+                    android:layout_weight="0.2" />
+
+
+            </LinearLayout>
+            <me.grantland.widget.AutofitTextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:paddingLeft="20dp"
+                android:gravity="left|center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Tieng Viet"
+                android:textColor="@android:color/black"
+                android:id="@+id/txtVie"
+                android:maxLines="4"
+                android:textSize="36sp"
+                autofit:minTextSize="16sp"
+                />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                android:layout_alignParentBottom="true">
+                <info.hoang8f.widget.FButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Previous"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/btnPre"
+                    fbutton:buttonColor="@color/fbutton_color_belize_hole"
+                    fbutton:shadowColor="@color/fbutton_color_peter_river"
+                    fbutton:shadowEnabled="true"
+                    fbutton:shadowHeight="5dp"
+                    fbutton:cornerRadius="5dp"
+                    android:layout_weight="1" />
+
+                <info.hoang8f.widget.FButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Next"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/btnNext"
+                    fbutton:buttonColor="@color/fbutton_color_belize_hole"
+                    fbutton:shadowColor="@color/fbutton_color_peter_river"
+                    fbutton:shadowEnabled="true"
+                    fbutton:shadowHeight="5dp"
+                    fbutton:cornerRadius="5dp"
+                    android:layout_weight="1" />
+                <info.hoang8f.widget.FButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Finish"
+                    android:id="@+id/btnFinish"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:visibility="gone"
+                    fbutton:buttonColor="@color/fbutton_color_belize_hole"
+                    fbutton:shadowColor="@color/fbutton_color_peter_river"
+                    fbutton:shadowEnabled="true"
+                    android:layout_weight="1"
+                    fbutton:shadowHeight="5dp"
+                    fbutton:cornerRadius="5dp" />
+            </LinearLayout>
+        </RelativeLayout>
+</LinearLayout>
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/anniversary"
+        android:id="@+id/img_MyVocab" />
+
+    <me.grantland.widget.AutofitTextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:paddingLeft="20dp"
+        android:id="@+id/tv_Myvocab"
+        android:layout_gravity="center"
+        android:gravity="center|left"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Photographer"
+        android:maxLines="4"
+        android:textSize="36sp"
+        autofit:minTextSize="16sp"
+        android:layout_weight="0.8"
+        android:textStyle="bold"
+        />
+
+    <me.grantland.widget.AutofitTextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:paddingLeft="20dp"
+        android:gravity="left|center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tieng Viet"
+        android:textColor="@android:color/black"
+        android:id="@+id/tv_Myvocab_Vi"
+        android:maxLines="4"
+        android:textSize="36sp"
+        autofit:minTextSize="16sp"
+        />
+</LinearLayout>
+
+

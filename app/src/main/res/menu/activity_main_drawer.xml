@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_letsgo" android:icon="@android:drawable/star_off"
+            android:title="Let's Go" />
+        <item android:id="@+id/nav_vocabulary" android:icon="@android:drawable/ic_menu_sort_alphabetically"
+            android:title="My Vocabulary" />
+        <item android:id="@+id/nav_transcript" android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="My Transcript" />
+    </group>
+    <item android:title="Manager">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item android:id="@+id/mng_topic" android:icon="@android:drawable/ic_menu_set_as"
+                android:title="Manage Topic" />
+            <item android:id="@+id/mng_voca" android:icon="@android:drawable/ic_menu_set_as"
+                android:title="Manage Vocabulary" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_setting" android:icon="@android:drawable/ic_menu_set_as"
+                android:title="Setting" />
+        </menu>
+    </item>
+
+</menu>

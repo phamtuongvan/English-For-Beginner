@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/txt_MyVocab_Eng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New word"
+        android:textColorHint="?colorAccent"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelAnimating="true"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/txt_MyVocab_Vi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Translate to Vietnamese"
+        android:textColorHint="?colorAccent"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelAnimating="true"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Choose Audio"
+            android:textColor="@color/white"
+            android:background="?colorAccent"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:id="@+id/btn_chooseS"
+            android:layout_weight="0.5" />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edt_chooseS"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Choose Audio"
+            android:textColorHint="?colorAccent"
+            app:met_floatingLabel="highlight"
+            app:met_floatingLabelAnimating="true"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:orientation="vertical">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Choose Image"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/white"
+                android:background="?colorAccent"
+                android:id="@+id/btn_chooseP"
+                android:layout_weight="0.5" />
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="0dp"
+                android:visibility="invisible"
+                android:layout_height="wrap_content"
+                android:hint="Choose Audio"
+                android:textColorHint="?colorAccent"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelAnimating="true"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/abc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </ImageView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">English For Beginner</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    
+        <string name="nav_title_a">Lets Go</string>
+        <string name="nav_title_b">My Vocabulary</string>
+        <string name="nav_title_c">My Transcript</string>
+        <string name="nav_title_d">Manage Topic</string>
+        <string name="nav_title_e">Manage Vocabulary</string>
+
+</resources>

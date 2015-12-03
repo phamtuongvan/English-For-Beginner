@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">English For Beginner</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    
+        <string name="nav_title_a">Lets Go</string>
+        <string name="nav_title_b">My Vocabulary</string>
+        <string name="nav_title_c">My Transcript</string>
+        <string name="nav_title_d">Manage Topic</string>
+        <string name="nav_title_e">Manage Vocabulary</string>
+    <string name="Info1">About Application</string>
+     <string name="Info2">The App " English for Beginner " help the beginner easily to learning EngLish
+      with the Theme friendly , Customers could change themes their want , everything you want to feedback about the app
+       please look at below , we have infos about developers , please ask us .</string>
+    <string name="info_1">Phạm Tường Vân</string>
+    <string name="info_1_a">Developer</string>
+    <string name="info_1_b">Tôi là Vân,là sinh viên của FPT POLYTECHNIC , Có am hiểu về các ngôn ngữ lập trình khác nhau như : JAVA, MySQL, HTML5, CSS3, Javascript, Nodejs... và các kỹ năng mềm như Làm việc độc lập hoặc theo nhóm, Kỹ năng giao tiếp bằng miệng và văn bản Kỹ năng tiếng Anh: nói, đọc và viết. Với những khả năng trên tôi muốn mình là một Developer chuyên nghiệp , và làm ra nhiều ứng dụng thú vị cho người dùng.
+  </string>
+    <string name="info_2">Huỳnh Minh Sang</string>
+    <string name="info_2_a">Developer</string>
+    <string name="info_2_b">Tôi là Sang,là sinh viên FPT POLYTECHNIC , Có am hiểu về các ngôn ngữ lập trình khác nhau, và có sở thích là chơi game . Có khả năng làm việc độc lập và làm theo nhóm . Mong muốn làm ra nhiều ứng dụng hay để hỗ trợ người dùng .
+  </string>
+    <string name="info_3">Trần Thụy Minh Thanh</string>
+    <string name="info_3_a">Developer</string>
+    <string name="info_3_b">Tôi là Thanh,là sinh viên FPT POLYTECHNIC, có khả năng lập trình tốt trên nền tảng Java và thiết kế Web.Có đam mê về nghệ thuật,Tìm tòi về Đồ họa, Thích chụp ảnh,đi du lịch đó đây ...Có thể Làm việc độc lập hoặc theo nhóm.Mong muốn làm ra nhiều ứng dụng hữu ích giúp cho cộng đồng .
+
+  </string>
+    <string name="info_4">Lê Thanh Nhân</string>
+    <string name="info_4_a">Developer</string>
+    <string name="info_4_b"> Tôi là Nhân,đam mê công nghệ đặc biệt là thích làm game,thích tìm tòi những cái mới,thích sự hoàn hảo và sự lôi cuốn,bằng những khả năng đó,tôi muốn mang lại cho người dùng những trải nghiệm tốt nhất về công nghệ.
+  </string>
+</resources>

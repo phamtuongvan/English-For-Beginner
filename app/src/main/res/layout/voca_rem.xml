@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="sfsdfds"
+            android:id="@+id/txtResult" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Not Remember Vocabulary"
+            android:id="@+id/textView3" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:id="@+id/lvNotRemem"
+            android:layout_weight="1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Remember Vocabulary"
+            android:id="@+id/textView"/>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:id="@+id/lvRemem"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>
